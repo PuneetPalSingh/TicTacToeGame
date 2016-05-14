@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  TTTAppDelegate.m
 //  TicTacToeGame
 //
 //  Created by Puneet Pal Singh on 5/12/16.
 //  Copyright © 2016 Puneet Pal Singh. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TTTAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TTTAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TTTAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

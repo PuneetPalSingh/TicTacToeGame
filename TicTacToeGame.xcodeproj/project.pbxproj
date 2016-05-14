@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9F82427C1CE4740E00618BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F82427B1CE4740E00618BCD /* main.m */; };
-		9F82427F1CE4740E00618BCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F82427E1CE4740E00618BCD /* AppDelegate.m */; };
-		9F8242821CE4740E00618BCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8242811CE4740E00618BCD /* ViewController.m */; };
+		9F82427F1CE4740E00618BCD /* TTTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F82427E1CE4740E00618BCD /* TTTAppDelegate.m */; };
+		9F8242821CE4740E00618BCD /* TTTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8242811CE4740E00618BCD /* TTTCollectionViewController.m */; };
 		9F8242851CE4740E00618BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8242831CE4740E00618BCD /* Main.storyboard */; };
 		9F8242871CE4740E00618BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8242861CE4740E00618BCD /* Assets.xcassets */; };
 		9F82428A1CE4740E00618BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8242881CE4740E00618BCD /* LaunchScreen.storyboard */; };
 		9F8242951CE4740E00618BCD /* TicTacToeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8242941CE4740E00618BCD /* TicTacToeGameTests.m */; };
 		9F8242A01CE4740E00618BCD /* TicTacToeGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F82429F1CE4740E00618BCD /* TicTacToeGameUITests.m */; };
+		9FB5F7581CE5712F00FFA1F8 /* TTTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F7571CE5712F00FFA1F8 /* TTTCollectionViewCell.m */; };
+		9FB5F75A1CE5718B00FFA1F8 /* TTTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB5F7591CE5718B00FFA1F8 /* TTTCollectionViewCell.xib */; };
+		9FB5F75E1CE59FA800FFA1F8 /* TTTGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */; };
+		9FB5F7671CE5C3FA00FFA1F8 /* TTTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,10 @@
 /* Begin PBXFileReference section */
 		9F8242771CE4740E00618BCD /* TicTacToeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F82427B1CE4740E00618BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F82427D1CE4740E00618BCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9F82427E1CE4740E00618BCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F8242801CE4740E00618BCD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F8242811CE4740E00618BCD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F82427D1CE4740E00618BCD /* TTTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTAppDelegate.h; sourceTree = "<group>"; };
+		9F82427E1CE4740E00618BCD /* TTTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTAppDelegate.m; sourceTree = "<group>"; };
+		9F8242801CE4740E00618BCD /* TTTCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTCollectionViewController.h; sourceTree = "<group>"; };
+		9F8242811CE4740E00618BCD /* TTTCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTCollectionViewController.m; sourceTree = "<group>"; };
 		9F8242841CE4740E00618BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F8242861CE4740E00618BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8242891CE4740E00618BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,13 @@
 		9F82429B1CE4740E00618BCD /* TicTacToeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F82429F1CE4740E00618BCD /* TicTacToeGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGameUITests.m; sourceTree = "<group>"; };
 		9F8242A11CE4740E00618BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB5F7561CE5712F00FFA1F8 /* TTTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTCollectionViewCell.h; sourceTree = "<group>"; };
+		9FB5F7571CE5712F00FFA1F8 /* TTTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTCollectionViewCell.m; sourceTree = "<group>"; };
+		9FB5F7591CE5718B00FFA1F8 /* TTTCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTCollectionViewCell.xib; sourceTree = "<group>"; };
+		9FB5F75C1CE59FA800FFA1F8 /* TTTGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTGameState.h; sourceTree = "<group>"; };
+		9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTGameState.m; sourceTree = "<group>"; };
+		9FB5F7651CE5C3EC00FFA1F8 /* TTTConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTConstants.h; sourceTree = "<group>"; };
+		9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,15 @@
 		9F8242791CE4740E00618BCD /* TicTacToeGame */ = {
 			isa = PBXGroup;
 			children = (
-				9F82427D1CE4740E00618BCD /* AppDelegate.h */,
-				9F82427E1CE4740E00618BCD /* AppDelegate.m */,
-				9F8242801CE4740E00618BCD /* ViewController.h */,
-				9F8242811CE4740E00618BCD /* ViewController.m */,
+				9F82427D1CE4740E00618BCD /* TTTAppDelegate.h */,
+				9F82427E1CE4740E00618BCD /* TTTAppDelegate.m */,
+				9F8242801CE4740E00618BCD /* TTTCollectionViewController.h */,
+				9F8242811CE4740E00618BCD /* TTTCollectionViewController.m */,
+				9FB5F75C1CE59FA800FFA1F8 /* TTTGameState.h */,
+				9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */,
+				9FB5F7651CE5C3EC00FFA1F8 /* TTTConstants.h */,
+				9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */,
+				9FB5F75B1CE59BBE00FFA1F8 /* TTTCollectionViewCell */,
 				9F8242831CE4740E00618BCD /* Main.storyboard */,
 				9F8242861CE4740E00618BCD /* Assets.xcassets */,
 				9F8242881CE4740E00618BCD /* LaunchScreen.storyboard */,
@@ -138,6 +154,16 @@
 				9F8242A11CE4740E00618BCD /* Info.plist */,
 			);
 			path = TicTacToeGameUITests;
+			sourceTree = "<group>";
+		};
+		9FB5F75B1CE59BBE00FFA1F8 /* TTTCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5F7561CE5712F00FFA1F8 /* TTTCollectionViewCell.h */,
+				9FB5F7571CE5712F00FFA1F8 /* TTTCollectionViewCell.m */,
+				9FB5F7591CE5718B00FFA1F8 /* TTTCollectionViewCell.xib */,
+			);
+			name = TTTCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F82428A1CE4740E00618BCD /* LaunchScreen.storyboard in Resources */,
+				9FB5F75A1CE5718B00FFA1F8 /* TTTCollectionViewCell.xib in Resources */,
 				9F8242871CE4740E00618BCD /* Assets.xcassets in Resources */,
 				9F8242851CE4740E00618BCD /* Main.storyboard in Resources */,
 			);
@@ -270,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8242821CE4740E00618BCD /* ViewController.m in Sources */,
-				9F82427F1CE4740E00618BCD /* AppDelegate.m in Sources */,
+				9F8242821CE4740E00618BCD /* TTTCollectionViewController.m in Sources */,
+				9FB5F7581CE5712F00FFA1F8 /* TTTCollectionViewCell.m in Sources */,
+				9FB5F75E1CE59FA800FFA1F8 /* TTTGameState.m in Sources */,
+				9F82427F1CE4740E00618BCD /* TTTAppDelegate.m in Sources */,
+				9FB5F7671CE5C3FA00FFA1F8 /* TTTConstants.m in Sources */,
 				9F82427C1CE4740E00618BCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puneetpalsingh.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -428,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puneetpalsingh.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +528,7 @@
 				9F8242A61CE4740E00618BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F8242A71CE4740E00618BCD /* Build configuration list for PBXNativeTarget "TicTacToeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				9F8242A91CE4740E00618BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F8242AA1CE4740E00618BCD /* Build configuration list for PBXNativeTarget "TicTacToeGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				9F8242AC1CE4740E00618BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

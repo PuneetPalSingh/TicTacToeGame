@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TTTAppDelegate.h
 //  TicTacToeGame
 //
 //  Created by Puneet Pal Singh on 5/12/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TTTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
