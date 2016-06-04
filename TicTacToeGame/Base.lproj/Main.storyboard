@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZAI-hc-PYN">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZAI-hc-PYN">
                                 <rect key="frame" x="20" y="77" width="560" height="439"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="DSx-Kx-PhQ">
@@ -41,7 +41,7 @@
                                 </cells>
                             </collectionView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Board : 3X3" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yl4-Bk-GJG">
-                                <rect key="frame" x="180" y="30" width="240" height="37"/>
+                                <rect key="frame" x="180" y="21" width="240" height="25"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="GoR-ah-BkQ"/>
@@ -95,7 +95,7 @@
                                 </variation>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mMA-Ge-NcK">
-                                <rect key="frame" x="230" y="540" width="141" height="29"/>
+                                <rect key="frame" x="167" y="540" width="267" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="9xw-vK-Z5K"/>
                                 </constraints>

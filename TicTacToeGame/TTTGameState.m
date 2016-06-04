@@ -24,14 +24,14 @@
     
     if (self = [super init]) {
         
-        self.currentGameState = TTTGameStatePlayerTurnFirst;
-        self.currentGameResult = TTTGameResultNoResult;
-        self.numberOfPlayers = numerOfPlayers;
-        self.boardTwoDimensionalArray = [[NSMutableArray alloc]init];
-        self.firstPlayerScoreCount = 0;
-        self.secondPlayerScoreCount = 0;
-        self.matchDrawCount = 0;
-        self.numberOfCellsInRow = numberOfCellsInRow;
+        _currentGameState = TTTGameStatePlayerTurnFirst;
+        _currentGameResult = TTTGameResultNoResult;
+        _numberOfPlayers = numerOfPlayers;
+        _boardTwoDimensionalArray = [[NSMutableArray alloc]init];
+        _firstPlayerScoreCount = 0;
+        _secondPlayerScoreCount = 0;
+        _matchDrawCount = 0;
+        _numberOfCellsInRow = numberOfCellsInRow;
         
         NSMutableArray *rowArray = [[NSMutableArray alloc]init];
         for (NSInteger i = 0 ; i < self.numberOfCellsInRow ; i++) {
