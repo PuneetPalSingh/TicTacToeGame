@@ -18,7 +18,6 @@
 		9FB5F7581CE5712F00FFA1F8 /* TTTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F7571CE5712F00FFA1F8 /* TTTCollectionViewCell.m */; };
 		9FB5F75A1CE5718B00FFA1F8 /* TTTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB5F7591CE5718B00FFA1F8 /* TTTCollectionViewCell.xib */; };
 		9FB5F75E1CE59FA800FFA1F8 /* TTTGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */; };
-		9FB5F7671CE5C3FA00FFA1F8 /* TTTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		9FB5F75C1CE59FA800FFA1F8 /* TTTGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTGameState.h; sourceTree = "<group>"; };
 		9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTGameState.m; sourceTree = "<group>"; };
 		9FB5F7651CE5C3EC00FFA1F8 /* TTTConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTConstants.h; sourceTree = "<group>"; };
-		9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +117,6 @@
 				9FB5F75C1CE59FA800FFA1F8 /* TTTGameState.h */,
 				9FB5F75D1CE59FA800FFA1F8 /* TTTGameState.m */,
 				9FB5F7651CE5C3EC00FFA1F8 /* TTTConstants.h */,
-				9FB5F7661CE5C3FA00FFA1F8 /* TTTConstants.m */,
 				9FB5F75B1CE59BBE00FFA1F8 /* TTTCollectionViewCell */,
 				9F8242831CE4740E00618BCD /* Main.storyboard */,
 				9F8242861CE4740E00618BCD /* Assets.xcassets */,
@@ -302,7 +299,6 @@
 				9FB5F7581CE5712F00FFA1F8 /* TTTCollectionViewCell.m in Sources */,
 				9FB5F75E1CE59FA800FFA1F8 /* TTTGameState.m in Sources */,
 				9F82427F1CE4740E00618BCD /* TTTAppDelegate.m in Sources */,
-				9FB5F7671CE5C3FA00FFA1F8 /* TTTConstants.m in Sources */,
 				9F82427C1CE4740E00618BCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +443,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TicTacToeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puneetpalsingh.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,6 +459,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TicTacToeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.puneetpalsingh.TicTacToeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";

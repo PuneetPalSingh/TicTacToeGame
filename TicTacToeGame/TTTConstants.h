@@ -11,6 +11,8 @@
 #ifndef TTTConstants_h
 #define TTTConstants_h
 
+NSInteger numberOFCellsInRow = 3;
 
 #endif /* TTTConstants_h */
+
 

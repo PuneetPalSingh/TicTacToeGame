@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -157,10 +157,10 @@
                             <mask key="constraints">
                                 <exclude reference="A05-aQ-uma"/>
                                 <exclude reference="h05-hI-R2W"/>
-                                <exclude reference="b1o-XN-Bvu"/>
-                                <exclude reference="nq7-wX-KUe"/>
                                 <exclude reference="jis-os-CTR"/>
                                 <exclude reference="mdU-a1-dBC"/>
+                                <exclude reference="b1o-XN-Bvu"/>
+                                <exclude reference="nq7-wX-KUe"/>
                                 <exclude reference="BnX-OG-knu"/>
                             </mask>
                         </variation>
@@ -173,10 +173,10 @@
                             <mask key="constraints">
                                 <include reference="A05-aQ-uma"/>
                                 <include reference="h05-hI-R2W"/>
-                                <include reference="b1o-XN-Bvu"/>
-                                <include reference="nq7-wX-KUe"/>
                                 <include reference="jis-os-CTR"/>
                                 <include reference="mdU-a1-dBC"/>
+                                <include reference="b1o-XN-Bvu"/>
+                                <include reference="nq7-wX-KUe"/>
                                 <include reference="BnX-OG-knu"/>
                             </mask>
                         </variation>
